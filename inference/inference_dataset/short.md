@@ -1,0 +1,59 @@
+This file 8 SHORT sample texts from 8 different domain: Web/tr, Web/en, Creative, Article, Thesis, Parliment, Code and Math.
+
+Category | Length
+-------- | ------
+Short    | 1 to 8 sentences
+Mid      | 9 to 15 sentences
+Long     | 20 to 30 sentences
+
+# 1. Web/tr Domain
+
+```
+Çevre ve Şehircilik Bakanlığı'nın öncülük ettiği "Yeşil Şehirler Projesi" 81 ilde hayata geçiriliyor. Proje kapsamında kent merkezlerinde park alanları genişletilirken, bisiklet yolları da artırılıyor. Belediyeler vatandaşlarla birlikte ağaçlandırma çalışmaları düzenleyerek çevre bilincini artırmaya odaklanıyor. İlk etapta İstanbul, Ankara ve İzmir'de pilot uygulamalar başlatıldı. Bu şehirlerdeki hava kalitesi ölçümleri olumlu sonuçlar vermeye başladı. Proje koordinatörü Dr. Elif Yaman, "Amacımız yaşam kalitesini artırarak sürdürülebilir şehirler oluşturmak" dedi. Gelecek yıl projenin tüm Türkiye'ye yaygınlaştırılması planlanıyor.
+```
+
+
+# 2. Web/en Domain
+
+```
+Marvel Studios announced a new series coming to Disney+ in early 2025. Titled *Eclipse*, the show will focus on a previously unknown hero in the MCU. The cast includes rising star Mia Chen in the lead role. Filming is set to begin in Vancouver this August. Fans have already begun speculating about the character’s connection to the existing universe. More details will be revealed at San Diego Comic-Con.
+```
+
+# 3. Creative/tr Domain
+
+```
+Eski kütüphaneci her sabah aynı saatte gelir, sessizce raflar arasında dolaşırdı. Kimsenin fark etmediği şey, onun sadece kitapları okumadığı, aynı zamanda kitapların ona fısıldadığı sırları dinlediğiydi. Gecenin karanlığında, sayfalardaki karakterler canlanır, kütüphanenin koridorlarında yürürlerdi. Yaşlı adam bu gizli dünyayın tek tanığıydı ve bu yüzden asla emekli olmayı kabul etmemişti. Bir gün genç bir kız ona yaklaştı ve "Kitaplar gerçekten konuşuyor mu?" diye sordu. O gün kütüphaneci ilk kez gülümsedi ve "Dinlemeyi bilen kulaklar için her şey mümkün" dedi.
+```
+
+# 4. Article/tr Domain
+
+```
+Bu çalışmada, üniversite öğrencilerinin dijital öğrenme platformlarına yönelik tutumları ve akademik başarıları arasındaki ilişki incelenmiştir. Araştırma, 2023-2024 eğitim-öğretim yılında İstanbul'daki üç farklı üniversiteden 150 öğrenci ile yürütülmüştür. Veri toplama araçları olarak "Dijital Öğrenme Tutum Ölçeği" ve "Akademik Başarı Değerlendirme Formu" kullanılmıştır. Bulgular, dijital platformlara karşı olumlu tutum sergileyen öğrencilerin akademik başarı puanlarının anlamlı düzeyde yüksek olduğunu göstermiştir (p<0.05). Ayrıca, öğrencilerin yaş ve teknoloji kullanım deneyimi ile dijital öğrenme tutumları arasında pozitif korelasyon tespit edilmiştir. Bu sonuçlar, eğitim kurumlarının dijital dönüşüm stratejilerini planlarken öğrenci profillerini dikkate alması gerektiğini ortaya koymaktadır.
+```
+
+# 5. Thesis/tr Domain
+
+```
+Bu araştırma, ortaokul öğrencilerinde empati eğitiminin sosyal problem çözme becerilerine etkisini incelemeyi amaçlamaktadır. Araştırma, İstanbul'daki bir devlet okulunda 7. sınıf öğrencileriyle yürütülmüştür. Deney grubundaki öğrencilere 8 hafta boyunca yapılandırılmış empati eğitimi uygulanmıştır. Kontrol grubuna herhangi bir müdahale yapılmamıştır. Araştırma verileri Sosyal Problem Çözme Envanteri ve Empati Ölçeği ile toplanmıştır. Bulgular, empati eğitiminin öğrencilerin sosyal problem çözme becerilerinde anlamlı bir artış sağladığını göstermektedir.
+```
+
+# 6. Parliment/tr Domain
+
+```
+Türkiye Büyük Millet Meclisinin 105’inci Birleşimini açıyorum. Toplantı yeter sayısı vardır, görüşmelere başlıyoruz. Gündeme geçmeden önce üç sayın milletvekiline gündem dışı söz vereceğim. İlk söz, Hatay ilinin tarımsal sorunları hakkında söz isteyen Hatay Milletvekili Mehmet Öztürk’e aittir. Buyurun Sayın Öztürk. Sayın Başkan, değerli milletvekilleri; Hatay’da yaşanan kuraklık ve destekleme politikalarının yetersizliği çiftçilerimizi ciddi şekilde zor durumda bırakmıştır. Özellikle zeytin ve narenciye üreticileri hem ihracat sıkıntısı yaşamakta hem de girdi maliyetleri karşısında ezilmektedir. Bu nedenle Tarım Bakanlığının bölgeye özel destek programı geliştirmesi elzem hâle gelmiştir."
+```
+
+# 7. Code/en Domain
+
+```
+Design a Java class named `Book` that encapsulates book details such as `title`, `author`, and `price`. Implement proper getters and setters. Add a method to validate if the book price is within a logical range.\n\n```java\npublic class Book {\n    private String title;\n    private String author;\n    private double price;\n\n    public String getTitle() {\n        return title;\n    }\n\n    public void setTitle(String title) {\n        this.title = title;\n    }\n\n    public String getAuthor() {\n        return author;\n    }\n\n    public void setAuthor(String author) {\n        this.author = author;\n    }\n\n    public double getPrice() {\n        return price;\n    }\n\n    public void setPrice(double price) {\n        if (price >= 0 && price <= 1000) {\n            this.price = price;\n        } else {\n            throw new IllegalArgumentException(\"Price must be between 0 and 1000.\");\n        }\n    }\n}\n```
+```
+
+# 8. Math/en Domain
+
+```
+A train 180 meters long is running at a speed of 72 km/h. how much time will it take to cross a platform 120 meters long? also, find the time it takes to pass a man standing on the platform.\n\na) 15 sec and 9 sec, b) 18 sec and 10 sec, c) 20 sec and 9 sec, d) 12 sec and 7 sec, e) none of these\n\n\"explanation:\nlength of train = 180 m\nlength of platform = 120 m\ntotal distance to cross platform = 180 + 120 = 300 m\n\nspeed of train in m/s = (72 × 1000) / 3600 = 20 m/s\n\ntime to cross platform = 300 / 20 = 15 seconds\ntime to cross a man = 180 / 20 = 9 seconds\n\nanswer: option a\
+```
+
+
+

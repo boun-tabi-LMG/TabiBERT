@@ -1,0 +1,55 @@
+This file 8 MID sample texts from 8 different domain: Web/tr, Web/en, Creative, Article, Thesis, Parliment, Code and Math.
+
+Category | Length
+-------- | ------
+Short    | 1 to 8 sentences
+Mid      | 9 to 15 sentences
+Long     | 20 to 30 sentences
+
+# 1. Web/tr Domain
+
+```
+Türkiye'nin zengin kültürel mirası, UNESCO tarafından dünya çapında tanınmakta ve korunmaktadır. Kapadokya'nın eşsiz kaya oluşumları arasına gizlenmiş yeraltı şehirleri, binlerce yıllık bir tarihe ev sahipliği yapar. Hierapolis-Pamukkale'nin antik termal havuzları ise yüzyıllardır insanları büyülemeye devam eder. İstanbul'un tarihi yarımadası, Bizans ve Osmanlı medeniyetlerinin izlerini taşıyarak Ayasofya, Sultan Ahmet Camii ve Topkapı Sarayı gibi yapılarla milyonlarca ziyaretçiyi ağırlar. Göbeklitepe'nin keşfi de arkeoloji dünyasında çığır açmış ve tarihe bakışımızı kökten değiştirmiştir. Kültür ve Turizm Bakanlığı, bu mirasın korunması adına sürekli çalışmalar yürütmekte; restorasyonlar uluslararası standartlara uygun şekilde gerçekleştirilerek eserlerin özgünlüğü titizlikle muhafaza edilmektedir. Artan müze ziyaretçi sayıları, hem bu mirasa olan ilginin göstergesi olmakta hem de turizm gelirlerine ciddi katkı sağlamaktadır. Tüm bu unsurlar, Türkiye'nin kültürel zenginliğini dünya turizmi açısından güçlü bir cazibe merkezi haline getirmeye devam etmektedir.
+```
+
+# 2. Web/en Domain
+
+```
+A small bakery in Portland has gone viral after a customer shared photos of their cat-shaped croissants. The bakery, called 'Whisker & Dough', reported a 300% increase in orders within 48 hours. Owner Jasmine Kim said she never expected the pastry to become a social media sensation. The croissants are handmade each morning and shaped with chocolate dough for the ears and tail. Customers are lining up as early as 6 a.m. to secure a batch. Online pre-orders are now booked two weeks in advance. Local news covered the story, and the bakery has since received interest from food blogs in Japan and France. Kim is planning to release a dog-shaped version next month. "We’re just having fun," she says. "If it makes people smile, it’s worth the effort."
+```
+
+# 3. Creative/tr Domain
+
+```
+Şehrin en eski sokağında yaşayan saatçi, zamanla tuhaf bir ilişki kurmuştu. Her sabah dükkânını açarken, duvarlardaki saatlerin tik-takları ona farklı hikâyeler anlatırdı. Bazıları geçmişten gelen hüzünlü melodilerdi, bazıları ise geleceğin belirsizliğini fısıldayan endişeli ritimlerdi. Yıllar geçtikçe, saatçi bu sesleri ayırt etmeyi öğrenmişti. Müşteriler gelir, saatlerini tamir ettirirler, ama asla saatçinin içinde yaşadığı bu zamansız dünyayı fark etmezlerdi. Bir gün garip bir müşteri girdi dükkâna; elinde kırık bir cep saati vardı. "Bu saati tamir edebilir misiniz?" diye sordu, ama saatçi hemen anladı ki bu sıradan bir tamirci işi değildi. Saat durmuş gibiydi, ama aslında çok farklı bir zamanda tiklaklıyordu. Saatçi eline aldığında, aniden çocukluk anılarını gördü - kendi geçmişine ait unutulmuş anları. Müşteri gülümseyerek "Bazı saatler sadece zamanı göstermez, zamanı yaşatır" dedi. Saatçi o gün anladı ki mesleği sadece mekanik bir iş değil, aslında insanların kayıp anlarını bulma sanatıydı. Akşam dükkânı kapatırken, tüm saatlerin aynı anda çalmaya başladığını duydu - bu, yeni bir zamanın başlangıcının müjdesiydi.
+```
+
+# 4. Article/tr Domain
+
+```
+Türkiye'deki büyükşehirlerde sürdürülebilir kentsel planlama uygulamalarının mevcut durumu ve gelişim potansiyeli bu araştırmanın temel konusunu oluşturmaktadır. Son yirmi yılda hızla büyüyen Türk şehirlerinde, çevre dostu planlama yaklaşımlarının benimsenmesi kritik bir önem kazanmıştır. Bu çalışma, İstanbul, Ankara, İzmir ve Bursa olmak üzere dört büyükşehrin kentsel planlama politikalarını karşılaştırmalı olarak analiz etmiştir. Araştırma yöntem olarak karma yaklaşım benimsenmiş, hem nicel hem de nitel veriler toplanmıştır. Belediye yetkilileri, şehir planlamaları uzmanları ve çevre aktivistleri ile derinlemesine görüşmeler yapılmıştır. Kentsel yeşil alan oranları, toplu taşıma kullanım düzeyleri ve geri dönüşüm programlarının etkinliği değerlendirilmiştir. Bulgular, İzmir'in sürdürülebilir planlama konusunda en başarılı metropol olduğunu, İstanbul'un ise en büyük potansiyele sahip olmasına rağmen uygulamada zorluklar yaşadığını göstermiştir. Ankara ve Bursa'nın orta düzeyde performans sergilediği, ancak gelişim alanlarının bulunduğu tespit edilmiştir. Çalışma sonucunda, sürdürülebilir kentsel planlama için yerel yönetimlerin kapasitelerinin artırılması gerektiği önerilmiştir. Ayrıca, vatandaş katılımının teşvik edilmesi ve çok sektörlü işbirliğinin geliştirilmesi kritik faktörler olarak değerlendirilmiştir. Bu araştırmanın bulguları, Türkiye'deki kentsel planlama politikalarının yeniden değerlendirilmesi için önemli veriler sunmaktadır. Gelecek araştırmalarda, küçük ve orta ölçekli şehirlerin de analiz kapsamına alınması önerilmektedir.
+```
+
+# 5. Thesis/tr Domain
+
+```
+Bu yüksek lisans tezinde, tip 2 diyabet hastalarında düzenli egzersizin glisemik kontrol üzerindeki etkisi incelenmiştir. Araştırma, Ankara Üniversitesi Tıp Fakültesi Endokrinoloji Polikliniği'nde yürütülmüş ve 50 gönüllü hasta katılmıştır. Katılımcılar rastgele şekilde egzersiz ve kontrol grubu olarak ikiye ayrılmıştır. Egzersiz grubuna 12 hafta süresince haftada 3 gün aerobik egzersiz programı uygulanmıştır. Kontrol grubuna yalnızca standart medikal tedavi devam ettirilmiştir. Veriler, HbA1c düzeyleri ve Egzersiz Tutum Ölçeği kullanılarak toplanmıştır. Uygulama öncesi ve sonrası ölçümler karşılaştırılmıştır. Egzersiz grubunda HbA1c düzeyinde istatistiksel olarak anlamlı bir düşüş gözlenmiştir (p<0.05). Ayrıca, bu gruptaki bireylerin egzersize yönelik tutumlarının da olumlu yönde değiştiği belirlenmiştir. Çalışma, fiziksel aktivitenin diyabet yönetiminde etkili bir destekleyici unsur olduğunu göstermektedir. Bulgular, bireylerin yaşam kalitesini artıracak sağlık politikaları için yol gösterici olabilir. Araştırmanın önerileri, benzer hasta gruplarında daha uzun süreli takip çalışmaları yapılmasını içermektedir.
+```
+
+# 6. Parliment/tr Domain
+
+```
+Türkiye Büyük Millet Meclisinin 112’nci Birleşimini açıyorum. Toplantı yeter sayısı vardır, gündeme geçiyoruz. Sayın milletvekilleri, gündeme geçmeden önce gündem dışı konuşmalar için üç sayın milletvekiline söz vereceğim. Gündem dışı ilk söz, Erzurum’da yaşanan sağlık hizmetleri yetersizliği hakkında söz isteyen Erzurum Milletvekili Ayşe Kaya’ya aittir. Buyurun Sayın Kaya. Sayın Başkan, değerli milletvekilleri; Erzurum ili ve ilçelerinde sağlık hizmetlerine erişim, özellikle kırsal bölgelerde ciddi sorun hâline gelmiştir. Pek çok köyümüzde haftalarca doktor gelmemekte, mevcut sağlık ocakları ise personel yetersizliği nedeniyle çalışamamaktadır. Bu durum vatandaşlarımızın temel sağlık hakkına erişimini engellemektedir. Erzurum Eğitim ve Araştırma Hastanesi’nin kapasitesi her geçen gün yetersiz kalmakta, hastalar sevk edilmek zorunda kalmaktadır. Ayrıca ambulans sayısının artırılması ve yeni aile sağlığı merkezlerinin kurulması gerekmektedir. Sağlık Bakanlığının, Doğu Anadolu Bölgesi’ne özel teşviklerle doktorları yönlendirmesi büyük önem arz etmektedir. Sayın milletvekilleri; sağlık sadece büyük şehirlerin değil, tüm yurttaşlarımızın hakkıdır. Bu nedenle, bütçede kaynak ayrılırken bölgesel eşitsizlikler göz önünde bulundurulmalıdır. Erzurum halkının yaşadığı bu sorunların görmezden gelinmemesi gerektiğini buradan bir kez daha hatırlatıyorum. Hepinizi saygıyla selamlıyorum.
+```
+
+# 7. Code/en Domain
+
+```
+Build a simple Node.js server using Express that manages a to-do list. Include middleware for logging requests, route handling for getting and posting tasks, and a dummy in-memory database. Comment the logic clearly for readability.\n\n```javascript\nconst express = require('express');\nconst app = express();\nconst port = 3000;\n\n// Middleware to parse JSON and log requests\napp.use(express.json());\napp.use((req, res, next) => {\n    console.log(`${req.method} ${req.url}`);\n    next();\n});\n\n// In-memory to-do list\nlet todos = [\n    { id: 1, task: 'Learn Node.js', completed: false },\n    { id: 2, task: 'Build an API', completed: false }\n];\n\n// GET all to-dos\napp.get('/todos', (req, res) => {\n    res.json(todos);\n});\n\n// POST a new to-do\napp.post('/todos', (req, res) => {\n    const { task } = req.body;\n    if (!task) {\n        return res.status(400).json({ error: 'Task is required' });\n    }\n    const newTodo = {\n        id: todos.length + 1,\n        task,\n        completed: false\n    };\n    todos.push(newTodo);\n    res.status(201).json(newTodo);\n});\n\n// Mark a to-do as completed\napp.patch('/todos/:id', (req, res) => {\n    const id = parseInt(req.params.id);\n    const todo = todos.find(t => t.id === id);\n    if (!todo) {\n        return res.status(404).json({ error: 'To-do not found' });\n    }\n    todo.completed = true;\n    res.json(todo);\n});\n\napp.listen(port, () => {\n    console.log(`Server running at http://localhost:${port}`);\n});\n```
+```
+
+# 8. Math/en Domain
+
+```
+Find the least number which when divided by 6, 9, 15, and 18 leaves a remainder 5 in each case.\n\na) 365, b) 185, c) 173, d) 365, e) none of these\n\n\"explanation:\nwe are asked to find the least number that leaves a remainder of 5 when divided by 6, 9, 15, and 18. this means the number is 5 more than a common multiple of those numbers.\n\nstep 1: find the lcm of 6, 9, 15, and 18.\n\nprime factorizations:\n6 = 2 × 3\n9 = 3²\n15 = 3 × 5\n18 = 2 × 3²\n\nlcm = 2 × 3² × 5 = 90\n\nstep 2: add the remainder 5 to the lcm\nrequired number = 90 + 5 = 95\n\ncheck:\n95 ÷ 6 = 15 remainder 5\n95 ÷ 9 = 10 remainder 5\n95 ÷ 15 = 6 remainder 5\n95 ÷ 18 = 5 remainder 5\n\nanswer: none of the listed options match; correct answer is 95 → option e\
+```

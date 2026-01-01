@@ -1,0 +1,37 @@
+[
+    {
+        "id": "0000", 
+        "domain": "web", 
+        "language": "tr", 
+        "length": "short", 
+        "text" : "İstanbul Büyükşehir Belediyespor kulübü bu sezon çok [MASK] sonuçlar elde etti. Futbol takımı ligin ilk yarısını [MASK] tamamlarken, basketbol takımı da [MASK] için kritik maçlara hazırlanıyor. Kulüp başkanı Ahmet Demir, \"[MASK] yatırım yapmaya devam edeceğiz\" açıklamasında bulundu. Altyapıda yetiştirilen sporcular A takımda da [MASK] bularak kendilerini kanıtladı. Önümüzdeki sezon için yeni transferler planlanırken, mevcut kadronun da güçlendirilmesi hedefleniyor."
+    },
+    {
+        "id": "0001", 
+        "domain": "web", 
+        "language": "tr", 
+        "length": "short", 
+        "text" : "Edebiyat Fakültesi'nde düzenlenen \"[MASK] Yazarlar ve Edebiyat\" paneli yoğun ilgi gördü. Etkinlikte, çağdaş Türk edebiyatında [MASK] yeri, temsiliyet sorunları ve [MASK] dil üzerine konuşmalar yapıldı. Panelistler arasında [MASK], yazarlar ve yüksek lisans öğrencileri yer aldı. Etkinliğin sonunda öğrencilerden gelen [MASK] yanıtlandı. Katılımcılar, bu tür programların devamlılığını talep etti." 
+    },
+    {
+        "id": "0002", 
+        "domain": "web", 
+        "language": "tr", 
+        "length": "short", 
+        "text" : "Çevre ve Şehircilik Bakanlığı'nın öncülük ettiği \"[MASK] Şehirler Projesi\" 81 ilde hayata geçiriliyor. Proje kapsamında kent merkezlerinde [MASK] alanları genişletilirken, bisiklet yolları da artırılıyor. Belediyeler vatandaşlarla birlikte [MASK] çalışmaları düzenleyerek çevre bilincini artırmaya odaklanıyor. İlk etapta İstanbul, Ankara ve İzmir'de [MASK] uygulamalar başlatıldı. Bu şehirlerdeki hava kalitesi ölçümleri [MASK] sonuçlar vermeye başladı. Proje koordinatörü Dr. Elif Yaman, \"Amacımız yaşam kalitesini artırarak sürdürülebilir şehirler oluşturmak\" dedi. Gelecek yıl projenin tüm Türkiye'ye yaygınlaştırılması planlanıyor." 
+    },
+    {
+        "id": "0003", 
+        "domain": "web", 
+        "language": "tr", 
+        "length": "short", 
+        "text" : "Türk bankacılık sektörü 2024 yılında [MASK] performans sergiledi. Kredi hacmi artışı ekonomik büyümeyi [MASK] ederken, dijital bankacılık hizmetleri de hızla [MASK]. Bankalar müşteri deneyimini iyileştirmek için [MASK] ve büyük veri teknolojilerini kullanmaya başladı. Konut kredisi faiz oranları [MASK] trendine girerken, bireysel kredi talebinde artış gözlendi. Merkez Bankası'nın politika faizi kararları sektörü yakından etkiliyor. Bankacılık Düzenleme ve Denetleme Kurumu sektörün istikrarını korumak için gerekli tedbirleri almaya devam ediyor. Uzmanlar önümüzdeki dönemde dijital dönüşümün hızlanacağını öngörüyor." 
+    },
+    {
+        "id": "0004", 
+        "domain": "web", 
+        "language": "tr", 
+        "length": "mid", 
+        "text" : "Kastamonu'nun Daday ilçesinde yürütülen \"[MASK] ve Tarihle İç İçe\" adlı kalkınma projesi, kırsal turizmin [MASK] katkı sağlıyor. Projede tarihi konakların [MASK] edilerek butik otele dönüştürülmesi hedefleniyor. Ayrıca bölge halkının [MASK] ürünlerini turistlere sunabileceği pazar alanları da kuruluyor. Proje koordinatörü Fikret Aydın, sürdürülebilir turizmin [MASK] rolüne dikkat çekti. Genç girişimciler için eğitim programları başlatıldı. Üniversitelerden gelen gönüllü öğrenciler de projeye destek veriyor. Çevre düzenlemeleriyle birlikte doğal yürüyüş parkurları oluşturuluyor. Tüm bu çalışmalar, ilçenin hem ekonomik hem de kültürel olarak canlanmasına katkı sunuyor."
+    }
+]
