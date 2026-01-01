@@ -1,0 +1,8 @@
+task_type: "retrieval"
+dataset_name: "scifact"
+
+max_seq_len: 512
+
+# eval_interval: 1ep
+
+retrieval_task_id: 2

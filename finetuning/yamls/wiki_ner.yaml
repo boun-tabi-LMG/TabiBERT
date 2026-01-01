@@ -1,0 +1,51 @@
+defaults:
+  - finetuning_default
+  
+task_type: "ner"
+dataset_name: "wiki_ner"
+num_labels: 39
+
+max_seq_len: 128
+
+eval_interval: 1ep
+
+tag2id:
+  B-CARDINAL: 0
+  B-DATE: 1
+  B-EVENT: 2
+  B-FAC: 3
+  B-GPE: 4
+  B-LANGUAGE: 5
+  B-LAW: 6
+  B-LOC: 7
+  B-MONEY: 8
+  B-NORP: 9
+  B-ORDINAL: 10
+  B-ORG: 11
+  B-PERCENT: 12
+  B-PERSON: 13
+  B-PRODUCT: 14
+  B-QUANTITY: 15
+  B-TIME: 16
+  B-TITLE: 17
+  B-WORK_OF_ART: 18
+  I-CARDINAL: 19
+  I-DATE: 20
+  I-EVENT: 21
+  I-FAC: 22
+  I-GPE: 23
+  I-LANGUAGE: 24
+  I-LAW: 25
+  I-LOC: 26
+  I-MONEY: 27
+  I-NORP: 28
+  I-ORDINAL: 29
+  I-ORG: 30
+  I-PERCENT: 31
+  I-PERSON: 32
+  I-PRODUCT: 33
+  I-QUANTITY: 34
+  I-TIME: 35
+  I-TITLE: 36
+  I-WORK_OF_ART: 37
+  O: 38

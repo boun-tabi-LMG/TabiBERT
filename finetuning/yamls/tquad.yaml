@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "qa"
+dataset_name: "tquad2_qa"
+num_labels: -1
+
+max_seq_len: 512 # 1024
+
+eval_interval: 1ep

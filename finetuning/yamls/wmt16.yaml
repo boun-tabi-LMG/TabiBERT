@@ -1,0 +1,6 @@
+task_type: "retrieval"
+dataset_name: "wmt16"
+
+max_seq_len: 256
+
+retrieval_task_id: 0

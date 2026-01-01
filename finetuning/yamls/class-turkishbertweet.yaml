@@ -1,0 +1,58 @@
+model_source: "hf"
+hf_model_name: Sabanci/TurkishBERTweet
+model_path: VRLLab/TurkishBERTweet
+tokenizer_name: ${model_path}
+
+max_duration: 10ep   
+
+batch_size: 32
+device_eval_microbatch_size: ${batch_size}
+device_train_microbatch_size: ${batch_size}
+global_train_batch_size: ${batch_size}
+
+optimizer:
+  name: decoupled_adamw
+  lr: 2.0e-5
+  betas:
+  - 0.9
+  - 0.98
+  eps: 1.0e-06
+  weight_decay: 1.0e-5
+
+is_lower: True
+
+# Best Hyperparameters for TurkishBERTweet:
+# wmt16:              5.00E-06	   1.00E-05	    10	    32
+# msmarco:            2.00E-05	   1.00E-05	    10	    32
+# scifact:            3.00E-05	   1.00E-05	    10	    16
+# fiqa:               5.00E-06	   1.00E-06	     8	    32
+# quora:              1.00E-05	   1.00E-06	     8	    32
+# nfcorpus:           3.00E-05	   1.00E-05	     4	    32
+
+# apps_tr:            2.00E-05	   1.00E-05	     8	    16
+# cosqa_tr:           3.00E-05	   1.00E-06	    10	    16
+# stack_overflow:     2.00E-05	   1.00E-05	    10	    32
+# code_search:        3.00E-05	   1.00E-06	    10	    32
+
+# news_cat:           5.00E-06	   1.00E-05	    10	    16 
+# bil_tweet_news:     3.00E-05	   1.00E-06	    10	    16
+# gender_hate_speech: 5.00E-06	   1.00E-05	     3	    16
+# prod_review:        5.00E-06	   1.00E-06	     1	    32
+# sci_cite_TR:        2.00E-05	   1.00E-05	     1	    16
+# pubmed_rct:         5.00E-06	   1.00E-05	     7	    32
+# thesis_abstract:    3.00E-05	   1.00E-05	    10	    32
+
+# wiki_ner:           1.00E-05	   1.00E-06	    10	    32
+# wiki_ann_ner:       3.00E-05	   1.00E-05	    10	    16
+# pos_ud_boun:        1.00E-05	   1.00E-05	    10	    32
+# pos_ud_imst:        2.00E-05	   1.00E-06	    10	    16
+
+# sick_tr:            2.00E-05	   1.00E-05	    10	    16
+# sts:                1.00E-05	   1.00E-06	     5	    16
+
+# multinli:           1.00E-05	   1.00E-06	     3	    16
+# snli:               1.00E-05	   1.00E-06	     3	    16      
+# med_nli:            2.00E-05	   1.00E-06	    10	    32
+
+# tquad:              3.00E-05	   1.00E-05	    10	    16
+# xquad:              1.00E-05	   1.00E-06	     2	    32

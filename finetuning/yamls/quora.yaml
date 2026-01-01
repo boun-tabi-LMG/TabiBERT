@@ -1,0 +1,8 @@
+task_type: "retrieval"
+dataset_name: "quora"
+
+max_seq_len: 128
+
+# eval_interval: 1ep
+
+retrieval_task_id: 5

@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "classification"
+dataset_name: "prod_review"
+num_labels: 2
+
+max_seq_len: 384
+
+eval_interval: 1ep

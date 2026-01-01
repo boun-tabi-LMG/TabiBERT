@@ -1,0 +1,11 @@
+defaults:
+  - finetuning_default
+  
+task_type: "regression"
+dataset_name: "sick_tr"
+num_labels: 1
+
+max_seq_len: 128
+
+eval_interval: 1ep
+

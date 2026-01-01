@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "classification"
+dataset_name: "sci_cite_TR"
+num_labels: 3
+
+max_seq_len: 256
+
+eval_interval: 1ep

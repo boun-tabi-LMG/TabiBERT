@@ -1,0 +1,8 @@
+task_type: "retrieval"
+dataset_name: "stackoverflow_qa_tr"
+
+max_seq_len: 512 # 2560
+
+# eval_interval: 1ep
+
+retrieval_task_id: 12

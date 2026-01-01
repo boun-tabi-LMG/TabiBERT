@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+
+task_type: "nli"
+dataset_name: "snli"
+num_labels: 3
+
+max_seq_len: 128
+
+eval_interval: 1ep

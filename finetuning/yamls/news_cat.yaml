@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "classification"
+dataset_name: "news_cat"
+num_labels: 5
+
+max_seq_len: 1280 # 1280
+
+eval_interval: 1ep

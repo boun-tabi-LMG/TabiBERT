@@ -1,0 +1,62 @@
+run_name: ${task_type}/${dataset_name}/${hf_model_name}
+
+# Model
+model:
+  num_labels: ${num_labels}
+  tokenizer_name: ${tokenizer_name}
+  
+train_loader:
+  split: train
+  tokenizer_name: ${tokenizer_name}
+  max_seq_len: ${max_seq_len}
+  shuffle: true
+  dataset_name: ${dataset_name}
+  drop_last: true
+  num_workers: 8
+
+eval_loader:
+  split: validation
+  tokenizer_name: ${tokenizer_name}
+  max_seq_len: ${max_seq_len}
+  shuffle: true
+  dataset_name: ${dataset_name}
+  drop_last: false
+  num_workers: 8
+
+# Optimization
+scheduler:
+  name: linear_decay_with_warmup
+  t_warmup: 0.06dur # Warmup to the full LR for 6% of the training duration
+  alpha_f: 0.02 # Linearly decay to 0.02x the full LR by the end of the training duration
+
+# Save
+# save_folder: ./finetuning_checkpoints/${task_type}/${dataset_name}/${hf_model_name}
+save_interval: 1000ba
+save_num_checkpoints_to_keep: 1
+save_overwrite: true
+
+# System
+seed: 25
+# device_eval_microbatch_size: 64
+# device_train_microbatch_size: 64
+# global_train_batch_size: 192
+precision: amp_bf16
+n_gpus: 3
+
+# Logging
+progress_bar: true
+log_to_console: true
+console_log_interval: 1ba
+
+# Log to W&B
+# loggers:
+#   wandb:
+#     project: "hyperparam_tuning"
+#     entity:
+
+callbacks:
+  early_stopper:
+    monitor: loss
+    dataloader_label: train
+    patience: 1ep     # or use batches, e.g. "500ba" for batch-wise patience
+    min_delta: 0.0

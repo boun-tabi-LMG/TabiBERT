@@ -1,0 +1,27 @@
+defaults:
+  - finetuning_default
+  
+task_type: "pos"
+dataset_name: "pos_ud_imst"
+num_labels: 17
+
+max_seq_len: 128
+
+eval_interval: 1ep
+
+tag2id:
+    ADJ: 0
+    ADP: 1
+    ADV: 2
+    AUX: 3
+    CCONJ: 4
+    DET: 5
+    INTJ: 6
+    NOUN: 7
+    NUM: 8
+    PRON: 9
+    PROPN: 10
+    PUNCT: 11
+    VERB: 12
+    X: 13
+    _: 14

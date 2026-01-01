@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "classification"
+dataset_name: "bil_tweet_news"
+num_labels: 5
+
+max_seq_len: 128
+
+eval_interval: 1ep

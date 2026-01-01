@@ -1,0 +1,59 @@
+model_source: "hf"
+hf_model_name: mmBERT/base
+model_path: jhu-clsp/mmBERT-base
+tokenizer_name: ${model_path}
+
+max_duration: 9ep    
+
+batch_size: 32
+device_eval_microbatch_size: ${batch_size}
+device_train_microbatch_size: ${batch_size}
+global_train_batch_size: ${batch_size}
+
+optimizer:
+  name: decoupled_adamw
+  lr: 2.0e-5
+  betas:
+  - 0.9
+  - 0.98
+  eps: 1.0e-06
+  weight_decay: 1.0e-5
+
+is_lower: False
+
+# Best Hyperparameters for mmBERT:
+# wmt16:                1.00E-05	 1.00E-06	10	    32
+# msmarco:     ????     2.00E-05	 1.00E-05	 9	    32	
+# scifact:              3.00E-05	 1.00E-06	 7	    32
+# quora:                3.00E-05	 1.00E-05	 8	    32	
+# apps_tr:              3.00E-05	 1.00E-05	10	    16
+# fiqa:                 3.00E-05	 1.00E-05	10	    16
+# nfcorpus:             2.00E-05	 1.00E-06	 4	    16	
+
+# cosqa_tr:             2.00E-05	 1.00E-05	10	    32
+# stack_overflow:       2.00E-05	 1.00E-05	 6	    32
+# code_search:          3.00E-05	 1.00E-05	 6	    32
+
+# news_cat:             2.00E-05	 1.00E-06	10   	16
+# gender_hate_speech:   3.00E-05	 1.00E-05	10	    16
+# bil_tweet_news:       3.00E-05	 1.00E-06	10	    32
+# prod_review:          5.00E-06	 1.00E-06	 1	    32
+# pubmed_rct:           2.00E-05	 1.00E-06	 4	    16
+# sci_cite_TR:          2.00E-05	 1.00E-05	 7	    16
+# thesis_abstract:      3.00E-05	 1.00E-06	10	    16
+
+# wiki_ner:             3.00E-05	 1.00E-06	10	    16
+# wiki_ann_ner:         3.00E-05	 1.00E-05	10	    16    
+# pos_ud_boun:          2.00E-05	 1.00E-05	10	    32
+# pos_ud_imst:          3.00E-05	 1.00E-06	10	    16
+
+# sick_tr:              3.00E-05	 1.00E-06	 5	    16
+# sts:                  3.00E-05	 1.00E-05	 6	    16	
+
+# multinli:             2.00E-05	 1.00E-06	 7	    32
+# snli:                 2.00E-05	 1.00E-06	 6	    32
+# med_nli:              3.00E-05	 1.00E-06	10	    32
+
+# tquad:                3.00E-05	 1.00E-06	10	    32  
+# xquad:                3.00E-05	 1.00E-06	10	    16
+# xquad_EN:             2.00E-05	 1.00E-05	 5	    16

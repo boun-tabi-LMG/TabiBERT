@@ -1,0 +1,10 @@
+defaults:
+  - finetuning_default
+  
+task_type: "ner"
+dataset_name: "wiki_ann_ner"
+num_labels: 7
+
+max_seq_len: 128
+
+eval_interval: 1ep
