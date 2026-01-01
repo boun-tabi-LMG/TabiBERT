@@ -1,7 +1,7 @@
 # TabiBERT
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.23065-b31b1b.svg)](https://arxiv.org/abs/2512.23065)
-[![Hugging Face](https://img.shields.io/badge/🤗-Model-yellow.svg)](https://huggingface.co/boun-tabilab/TabiBERT)
+[![Hugging Face](https://img.shields.io/badge/🤗_Model-TabiBERT-yellow.svg)](https://huggingface.co/boun-tabilab/TabiBERT)
 [![Benchmark](https://img.shields.io/badge/Benchmark-TabiBench-purple)](https://huggingface.co/collections/boun-tabilab/tabibench)
 [![Code license](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 <!-- [![GitHub Repo stars](https://img.shields.io/github/stars/boun-tabi-LMG/TabiBERT)](https://github.com/boun-tabi-LMG/TabiBERT/stargazers) -->
