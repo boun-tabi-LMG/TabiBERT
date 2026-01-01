@@ -1,0 +1,18 @@
+conllu
+einops
+mosaicml[nlp,wandb]
+mosaicml-streaming
+omegaconf
+transformers
+nvitop
+torch-optimi
+numba
+wheel
+scikit-learn
+hydra-core
+seqeval
+wandb
+ninja
+datasets
+--find-links https://download.pytorch.org/whl/cu124
+hf_transfer

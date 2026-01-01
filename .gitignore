@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+
+finetuning_checkpoints/
+finetuned_checkpoints/
+evaluation_results/
+checkpoints/
+
+# Editors
+.vscode/
+.idea/
