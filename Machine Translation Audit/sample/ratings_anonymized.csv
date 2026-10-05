@@ -1,0 +1,418 @@
+item_id,dataset,stratum,rater,rating,task_valid,comment
+APPS-001,Apps,main,A,OK,YES,
+APPS-001,Apps,main,B,OK,YES,
+APPS-001,Apps,main,C,MINOR,YES,
+APPS-002,Apps,main,A,MINOR,YES,"Awkward duplicated 'yoksa ... yoksa'. TL’yi bul, yoksa böyle bir TL yoksa bunu belirt."
+APPS-002,Apps,main,B,OK,YES,
+APPS-002,Apps,main,C,MINOR,YES,
+APPS-003,Apps,main,A,MAJOR,UNSURE,Example I/O omitted; knight move mistranslated ('2 horizontal OR 1 vertical').
+APPS-003,Apps,main,B,OK,YES,
+APPS-003,Apps,main,C,MAJOR,YES,"Meaning changed: 'two squares horizontally AND one vertically' --> 'yatayda iki VEYA dikeyde bir'
+Omission: the Example section"
+APPS-004,Apps,main,A,OK,YES,
+APPS-004,Apps,main,B,OK,YES,
+APPS-004,Apps,main,C,OK,YES,
+APPS-005,Apps,main,A,OK,YES,
+APPS-005,Apps,main,B,OK,YES,
+APPS-005,Apps,main,C,MINOR,YES,
+APPS-006,Apps,main,A,MINOR,YES,kareler' misspelled 'karalar'
+APPS-006,Apps,main,B,OK,YES,
+APPS-006,Apps,main,C,MAJOR,YES,"Mistranslation: 'square' --> 'kara' instead of 'kare' 
+Example altered: in the Note section, the last row '.*.' became '*..'"
+APPS-007,Apps,main,A,MINOR,YES,'in front of them' -> 'in front of Pasha'.
+APPS-007,Apps,main,B,OK,YES,
+APPS-007,Apps,main,C,MINOR,YES,
+APPS-008,Apps,main,A,OK,YES,
+APPS-008,Apps,main,B,OK,YES,
+APPS-008,Apps,main,C,OK,YES,
+APPS-009,Apps,main,A,MAJOR,NO,Required outputs 'Yes/No' translated to 'Evet/Hayır'; gold code prints Yes/No.
+APPS-009,Apps,main,B,OK,YES,
+APPS-009,Apps,main,C,MAJOR,NO,"Wrong translation: 'graph' is translated into 'grafik'
+
+Output tokens changed: Context prints 'Yes/No' while description requires 'Evet/Hayır'"
+APPS-010,Apps,main,A,OK,YES,
+APPS-010,Apps,main,B,OK,YES,
+APPS-010,Apps,main,C,OK,YES,
+APPS-011,Apps,main,A,OK,YES,
+APPS-011,Apps,main,B,OK,YES,
+APPS-011,Apps,main,C,OK,YES,
+APPS-012,Apps,main,A,MINOR,YES,'clients' -> 'şüpheliler' early; 'It is guaranteed' dropped and 'correct permutation' -> 'izin verilen permütasyon'.
+APPS-012,Apps,main,B,OK,YES,
+APPS-012,Apps,main,C,MINOR,YES,
+APPS-013,Apps,main,A,OK,YES,
+APPS-013,Apps,main,B,OK,YES,
+APPS-013,Apps,main,C,MINOR,YES,
+APPS-014,Apps,main,A,OK,YES,
+APPS-014,Apps,main,B,OK,YES,
+APPS-014,Apps,main,C,OK,YES,
+APPS-015,Apps,main,A,OK,YES,
+APPS-015,Apps,main,B,OK,YES,
+APPS-015,Apps,main,C,OK,YES,
+APPS-016,Apps,main,A,OK,YES,
+APPS-016,Apps,main,B,OK,YES,
+APPS-016,Apps,main,C,OK,YES,
+APPS-017,Apps,main,A,OK,YES,
+APPS-017,Apps,main,B,OK,YES,
+APPS-017,Apps,main,C,OK,YES,
+APPS-018,Apps,main,A,OK,YES,
+APPS-018,Apps,main,B,OK,YES,
+APPS-018,Apps,main,C,MINOR,YES,
+APPS-019,Apps,main,A,OK,YES,
+APPS-019,Apps,main,B,MINOR,YES,"""Hafızasında hata yapmak"" sounds very clumsy for a mental state of forgetfulness."
+APPS-019,Apps,main,C,MINOR,YES,
+APPS-020,Apps,main,A,OK,YES,
+APPS-020,Apps,main,B,OK,YES,
+APPS-020,Apps,main,C,OK,YES,
+CODESE-001,CodeSearchNet,main,A,OK,YES,
+CODESE-001,CodeSearchNet,main,B,OK,YES,
+CODESE-001,CodeSearchNet,main,C,OK,YES,
+CODESE-002,CodeSearchNet,main,A,OK,YES,
+CODESE-002,CodeSearchNet,main,B,OK,YES,
+CODESE-002,CodeSearchNet,main,C,OK,YES,
+CODESE-003,CodeSearchNet,main,A,OK,YES,
+CODESE-003,CodeSearchNet,main,B,OK,YES,
+CODESE-003,CodeSearchNet,main,C,OK,YES,
+CODESE-004,CodeSearchNet,main,A,OK,YES,
+CODESE-004,CodeSearchNet,main,B,OK,YES,
+CODESE-004,CodeSearchNet,main,C,OK,YES,
+CODESE-005,CodeSearchNet,main,A,OK,YES,
+CODESE-005,CodeSearchNet,main,B,OK,YES,
+CODESE-005,CodeSearchNet,main,C,OK,YES,
+CODESE-006,CodeSearchNet,main,A,OK,YES,
+CODESE-006,CodeSearchNet,main,B,OK,YES,
+CODESE-006,CodeSearchNet,main,C,OK,YES,
+CODESE-007,CodeSearchNet,main,A,OK,YES,
+CODESE-007,CodeSearchNet,main,B,OK,YES,
+CODESE-007,CodeSearchNet,main,C,OK,YES,
+CODESE-008,CodeSearchNet,main,A,OK,YES,
+CODESE-008,CodeSearchNet,main,B,OK,YES,
+CODESE-008,CodeSearchNet,main,C,MINOR,YES,
+CODESE-009,CodeSearchNet,main,A,OK,YES,
+CODESE-009,CodeSearchNet,main,B,OK,YES,
+CODESE-009,CodeSearchNet,main,C,OK,YES,
+CODESE-010,CodeSearchNet,main,A,OK,YES,
+CODESE-010,CodeSearchNet,main,B,OK,YES,
+CODESE-010,CodeSearchNet,main,C,OK,YES,
+CODESE-011,CodeSearchNet,main,A,OK,YES,
+CODESE-011,CodeSearchNet,main,B,OK,YES,
+CODESE-011,CodeSearchNet,main,C,OK,YES,
+CODESE-012,CodeSearchNet,main,A,MAJOR,YES,Override direction flipped: says same-key items are replaced WITH existing ones.
+CODESE-012,CodeSearchNet,main,B,OK,YES,
+CODESE-012,CodeSearchNet,main,C,MAJOR,YES,Direction flipped: override existing ones with the same key --> aynı key'e sahip olanları mevcut olanlarla değiştirir
+CODESE-013,CodeSearchNet,main,A,OK,YES,
+CODESE-013,CodeSearchNet,main,B,OK,YES,
+CODESE-013,CodeSearchNet,main,C,OK,YES,
+CODESE-014,CodeSearchNet,main,A,OK,YES,
+CODESE-014,CodeSearchNet,main,B,OK,YES,
+CODESE-014,CodeSearchNet,main,C,OK,YES,
+CODESE-015,CodeSearchNet,main,A,OK,YES,
+CODESE-015,CodeSearchNet,main,B,OK,YES,
+CODESE-015,CodeSearchNet,main,C,OK,YES,
+CODESE-016,CodeSearchNet,main,A,OK,YES,
+CODESE-016,CodeSearchNet,main,B,OK,YES,
+CODESE-016,CodeSearchNet,main,C,OK,YES,
+CODESE-017,CodeSearchNet,main,A,OK,YES,
+CODESE-017,CodeSearchNet,main,B,OK,YES,
+CODESE-017,CodeSearchNet,main,C,OK,YES,
+CODESE-018,CodeSearchNet,main,A,MAJOR,YES,'the pull-request' omitted; 'iff' weakened to 'if'.
+CODESE-018,CodeSearchNet,main,B,MINOR,YES,"The translation omits the ""iff (if and only if)"" conditional which should have been translated as ""ancak ve ancak"" for strict equivalence."
+CODESE-018,CodeSearchNet,main,C,MAJOR,YES,"Omission: 'approved the pull-request' lost 'pull-request'. 
+Mistranslation: 'iff' (if and only if) was weakened to 'if'
+Mistranslation: 'Bir dosyadan herhangi birini' instead of 'Dosyalardan herhangi birini'"
+CODESE-019,CodeSearchNet,main,A,OK,YES,
+CODESE-019,CodeSearchNet,main,B,OK,YES,
+CODESE-019,CodeSearchNet,main,C,OK,YES,
+CODESE-020,CodeSearchNet,main,A,MINOR,YES,"Parameter identifiers translated (source_id -> kaynak_id, destination_id -> hedef_id); breaks match with code."
+CODESE-020,CodeSearchNet,main,B,OK,YES,
+CODESE-020,CodeSearchNet,main,C,MINOR,YES,
+COSQA-001,CosQA,main,A,OK,YES,
+COSQA-001,CosQA,main,B,OK,YES,
+COSQA-001,CosQA,main,C,OK,YES,
+COSQA-002,CosQA,main,A,OK,YES,
+COSQA-002,CosQA,main,B,OK,YES,
+COSQA-002,CosQA,main,C,OK,YES,
+COSQA-003,CosQA,main,A,OK,YES,
+COSQA-003,CosQA,main,B,OK,YES,
+COSQA-003,CosQA,main,C,OK,YES,
+COSQA-004,CosQA,main,A,OK,YES,
+COSQA-004,CosQA,main,B,OK,YES,
+COSQA-004,CosQA,main,C,OK,YES,
+COSQA-005,CosQA,main,A,MINOR,YES,word order ('...al Python').
+COSQA-005,CosQA,main,B,OK,YES,
+COSQA-005,CosQA,main,C,MINOR,YES,
+COSQA-006,CosQA,main,A,OK,YES,
+COSQA-006,CosQA,main,B,OK,YES,
+COSQA-006,CosQA,main,C,OK,YES,
+COSQA-007,CosQA,main,A,OK,YES,
+COSQA-007,CosQA,main,B,OK,YES,
+COSQA-007,CosQA,main,C,OK,YES,
+COSQA-008,CosQA,main,A,OK,YES,
+COSQA-008,CosQA,main,B,OK,YES,
+COSQA-008,CosQA,main,C,OK,YES,
+COSQA-009,CosQA,main,A,MINOR,YES,Awkward phrasing/word order ('... yazdırma (print) Python').
+COSQA-009,CosQA,main,B,OK,YES,
+COSQA-009,CosQA,main,C,MINOR,YES,
+COSQA-010,CosQA,main,A,OK,YES,
+COSQA-010,CosQA,main,B,OK,YES,
+COSQA-010,CosQA,main,C,OK,YES,
+COSQA-011,CosQA,main,A,OK,YES,
+COSQA-011,CosQA,main,B,OK,YES,
+COSQA-011,CosQA,main,C,OK,YES,
+COSQA-012,CosQA,main,A,OK,YES,
+COSQA-012,CosQA,main,B,OK,YES,
+COSQA-012,CosQA,main,C,OK,YES,
+COSQA-013,CosQA,main,A,OK,YES,
+COSQA-013,CosQA,main,B,OK,YES,
+COSQA-013,CosQA,main,C,OK,YES,
+COSQA-014,CosQA,main,A,MAJOR,YES,python' dropped from query
+COSQA-014,CosQA,main,B,MAJOR,NO,The translation doesn't contain the desired programming language.
+COSQA-014,CosQA,main,C,MAJOR,YES,Omission: 'python'
+COSQA-015,CosQA,main,A,OK,YES,
+COSQA-015,CosQA,main,B,OK,YES,
+COSQA-015,CosQA,main,C,OK,YES,
+COSQA-016,CosQA,main,A,OK,YES,
+COSQA-016,CosQA,main,B,OK,YES,
+COSQA-016,CosQA,main,C,OK,YES,
+COSQA-017,CosQA,main,A,OK,YES,
+COSQA-017,CosQA,main,B,OK,YES,
+COSQA-017,CosQA,main,C,OK,YES,
+COSQA-018,CosQA,main,A,OK,YES,
+COSQA-018,CosQA,main,B,OK,YES,
+COSQA-018,CosQA,main,C,MINOR,YES,
+COSQA-019,CosQA,main,A,OK,YES,
+COSQA-019,CosQA,main,B,OK,YES,
+COSQA-019,CosQA,main,C,OK,YES,
+COSQA-020,CosQA,main,A,OK,YES,
+COSQA-020,CosQA,main,B,OK,YES,
+COSQA-020,CosQA,main,C,OK,YES,
+PUBMED-001,PubMedRCT,main,A,OK,YES,
+PUBMED-001,PubMedRCT,main,B,OK,YES,
+PUBMED-001,PubMedRCT,main,C,OK,YES,
+PUBMED-002,PubMedRCT,main,A,OK,YES,
+PUBMED-002,PubMedRCT,main,B,OK,YES,
+PUBMED-002,PubMedRCT,main,C,MINOR,YES,
+PUBMED-003,PubMedRCT,main,A,OK,YES,
+PUBMED-003,PubMedRCT,main,B,OK,YES,
+PUBMED-003,PubMedRCT,main,C,OK,YES,
+PUBMED-004,PubMedRCT,main,A,MINOR,YES,responders' -> 'yanıtlayan'; i think it should be 'yanıt veren'.
+PUBMED-004,PubMedRCT,main,B,OK,YES,
+PUBMED-004,PubMedRCT,main,C,OK,YES,
+PUBMED-005,PubMedRCT,main,A,OK,YES,
+PUBMED-005,PubMedRCT,main,B,OK,YES,
+PUBMED-005,PubMedRCT,main,C,MINOR,YES,
+PUBMED-006,PubMedRCT,main,A,MAJOR,YES,'@ repetitions' omitted; m/f labels added to FS and DL loads.
+PUBMED-006,PubMedRCT,main,B,OK,YES,
+PUBMED-006,PubMedRCT,main,C,MAJOR,YES,Omission: @ repetitions
+PUBMED-007,PubMedRCT,main,A,OK,YES,
+PUBMED-007,PubMedRCT,main,B,OK,YES,
+PUBMED-007,PubMedRCT,main,C,OK,YES,
+PUBMED-008,PubMedRCT,main,A,OK,YES,
+PUBMED-008,PubMedRCT,main,B,OK,YES,
+PUBMED-008,PubMedRCT,main,C,OK,YES,
+PUBMED-009,PubMedRCT,main,A,OK,YES,
+PUBMED-009,PubMedRCT,main,B,OK,YES,
+PUBMED-009,PubMedRCT,main,C,OK,YES,
+PUBMED-010,PubMedRCT,main,A,MINOR,YES,Garbled comparison: 'ranibizumab (IVR) ile yalnızca IVR veya...' is redundant/confusing.
+PUBMED-010,PubMedRCT,main,B,OK,YES,
+PUBMED-010,PubMedRCT,main,C,MINOR,YES,
+PUBMED-011,PubMedRCT,main,A,OK,YES,
+PUBMED-011,PubMedRCT,main,B,OK,YES,
+PUBMED-011,PubMedRCT,main,C,OK,YES,
+PUBMED-012,PubMedRCT,main,A,MINOR,YES,'sham-controlled' -> 'plasebo kontrollü'; sham is more specific.
+PUBMED-012,PubMedRCT,main,B,OK,YES,
+PUBMED-012,PubMedRCT,main,C,MINOR,YES,
+PUBMED-013,PubMedRCT,main,A,MINOR,YES,'noninferiority' -> 'alttan kalır değildir' and 'intention-to-treat' -> 'niyetine göre analiz' are non-standard.
+PUBMED-013,PubMedRCT,main,B,OK,YES,
+PUBMED-013,PubMedRCT,main,C,MINOR,YES,
+PUBMED-014,PubMedRCT,main,A,OK,YES,
+PUBMED-014,PubMedRCT,main,B,OK,YES,
+PUBMED-014,PubMedRCT,main,C,OK,YES,
+PUBMED-015,PubMedRCT,main,A,MINOR,YES,'strain' -> 'gerilim' (stress/tension); 'gerinim'/'strain' expected. 'Zirve' awkward.
+PUBMED-015,PubMedRCT,main,B,OK,YES,
+PUBMED-015,PubMedRCT,main,C,MINOR,YES,
+PUBMED-016,PubMedRCT,main,A,OK,YES,
+PUBMED-016,PubMedRCT,main,B,OK,YES,
+PUBMED-016,PubMedRCT,main,C,OK,YES,
+PUBMED-017,PubMedRCT,main,A,OK,YES,
+PUBMED-017,PubMedRCT,main,B,OK,YES,
+PUBMED-017,PubMedRCT,main,C,OK,YES,
+PUBMED-018,PubMedRCT,main,A,OK,YES,
+PUBMED-018,PubMedRCT,main,B,OK,YES,
+PUBMED-018,PubMedRCT,main,C,OK,YES,
+PUBMED-019,PubMedRCT,main,A,MINOR,YES,Masked 'FT@' filled as 'FT4' . 
+PUBMED-019,PubMedRCT,main,B,OK,YES,
+PUBMED-019,PubMedRCT,main,C,MAJOR,YES,Number added: 'FT@' -->'FT4'
+PUBMED-020,PubMedRCT,main,A,OK,YES,
+PUBMED-020,PubMedRCT,main,B,OK,YES,
+PUBMED-020,PubMedRCT,main,C,OK,YES,
+SCICIT-001,SciCite,main,A,MINOR,YES,'in hospite symbionts' -> 'konakçı simbiyotları' (loses 'inside host'); typo 'gastodermal'.
+SCICIT-001,SciCite,main,B,OK,YES,
+SCICIT-001,SciCite,main,C,MINOR,YES,
+SCICIT-002,SciCite,main,A,MINOR,YES,'whole-mount' half-translated as 'bütün-mount'.
+SCICIT-002,SciCite,main,B,OK,YES,
+SCICIT-002,SciCite,main,C,MINOR,YES,
+SCICIT-003,SciCite,main,A,OK,YES,
+SCICIT-003,SciCite,main,B,OK,YES,
+SCICIT-003,SciCite,main,C,MINOR,YES,
+SCICIT-004,SciCite,main,A,MINOR,YES,'sacrificed' -> 'feda edilen'; 'sakrifiye edilen/öldürülen' expected.
+SCICIT-004,SciCite,main,B,OK,YES,
+SCICIT-004,SciCite,main,C,MINOR,YES,
+SCICIT-005,SciCite,main,A,OK,YES,
+SCICIT-005,SciCite,main,B,MINOR,YES,"The Latin abbreviation ""et al. (and others)"" is generally translated into Turkish as ""vd. (ve diğerleri)"""
+SCICIT-005,SciCite,main,C,OK,YES,
+SCICIT-006,SciCite,main,A,OK,YES,
+SCICIT-006,SciCite,main,B,OK,YES,
+SCICIT-006,SciCite,main,C,OK,YES,
+SCICIT-007,SciCite,main,A,OK,YES,
+SCICIT-007,SciCite,main,B,MAJOR,YES,"""reversibility"" in this context refers to the ability of lesions to heal themselves, rather than their relapse as implied by ""(lezyonların) geri dönmesi"", and the term is translated in medical domain into Turkish as ""geri dönüşümlülük"""
+SCICIT-007,SciCite,main,C,OK,YES,
+SCICIT-008,SciCite,main,A,OK,YES,
+SCICIT-008,SciCite,main,B,OK,YES,
+SCICIT-008,SciCite,main,C,OK,YES,
+SCICIT-009,SciCite,main,A,OK,YES,
+SCICIT-009,SciCite,main,B,MINOR,YES,"The Latin abbreviation ""et al. (and others)"" is generally translated into Turkish as ""vd. (ve diğerleri)"""
+SCICIT-009,SciCite,main,C,OK,YES,
+SCICIT-010,SciCite,main,A,OK,YES,
+SCICIT-010,SciCite,main,B,OK,YES,
+SCICIT-010,SciCite,main,C,OK,YES,
+SCICIT-011,SciCite,main,A,OK,YES,
+SCICIT-011,SciCite,main,B,OK,YES,
+SCICIT-011,SciCite,main,C,OK,YES,
+SCICIT-012,SciCite,main,A,OK,YES,
+SCICIT-012,SciCite,main,B,OK,YES,
+SCICIT-012,SciCite,main,C,OK,YES,
+SCICIT-013,SciCite,main,A,OK,YES,
+SCICIT-013,SciCite,main,B,OK,YES,
+SCICIT-013,SciCite,main,C,OK,YES,
+SCICIT-014,SciCite,main,A,MINOR,YES,'blended families' -> 'birleşik aileler' (ambiguous; 'üvey/karma aile' expected).
+SCICIT-014,SciCite,main,B,OK,YES,
+SCICIT-014,SciCite,main,C,OK,YES,
+SCICIT-015,SciCite,main,A,OK,YES,
+SCICIT-015,SciCite,main,B,OK,YES,
+SCICIT-015,SciCite,main,C,OK,YES,
+SCICIT-016,SciCite,main,A,OK,YES,
+SCICIT-016,SciCite,main,B,OK,YES,
+SCICIT-016,SciCite,main,C,MINOR,YES,
+SCICIT-017,SciCite,main,A,MINOR,YES,'reads' (sequencing) -> 'okuyucular' (readers); should be 'okumalar'.
+SCICIT-017,SciCite,main,B,OK,YES,
+SCICIT-017,SciCite,main,C,MAJOR,YES,Mistranslation: 'reads' --> 'okuyucular' instead of 'okumalar'
+SCICIT-018,SciCite,main,A,MINOR,YES,Fragment turned into full sentence; verb 'gözlenmiştir' (observed) added.
+SCICIT-018,SciCite,main,B,OK,YES,
+SCICIT-018,SciCite,main,C,MINOR,YES,
+SCICIT-019,SciCite,main,A,MINOR,YES,dense-time' -> 'sürekli-zaman' approximate term.
+SCICIT-019,SciCite,main,B,OK,YES,
+SCICIT-019,SciCite,main,C,OK,YES,
+SCICIT-020,SciCite,main,A,MAJOR,YES,'cytoskeletal breakdown' -> 'iskelet sistemi yıkımı' (skeletal system); should be 'hücre iskeleti'.
+SCICIT-020,SciCite,main,B,OK,YES,
+SCICIT-020,SciCite,main,C,MAJOR,YES,Technical term mistranslated: 'cytoskeletal breakdown' --> 'iskelet sistemi yıkımı' instead of 'hücre iskeleti yıkımı'
+STACKO-001,StackOverflowQA,main,A,OK,YES,
+STACKO-001,StackOverflowQA,main,B,OK,YES,
+STACKO-001,StackOverflowQA,main,C,MINOR,YES,
+STACKO-002,StackOverflowQA,main,A,OK,YES,"technocal terms remained untranslated, according to rubric I think that is okey"
+STACKO-002,StackOverflowQA,main,B,OK,YES,
+STACKO-002,StackOverflowQA,main,C,MINOR,YES,
+STACKO-003,StackOverflowQA,main,A,OK,YES,
+STACKO-003,StackOverflowQA,main,B,OK,YES,
+STACKO-003,StackOverflowQA,main,C,OK,YES,
+STACKO-004,StackOverflowQA,main,A,OK,YES,
+STACKO-004,StackOverflowQA,main,B,OK,YES,
+STACKO-004,StackOverflowQA,main,C,OK,YES,
+STACKO-005,StackOverflowQA,main,A,OK,YES,
+STACKO-005,StackOverflowQA,main,B,OK,YES,
+STACKO-005,StackOverflowQA,main,C,MINOR,YES,
+STACKO-006,StackOverflowQA,main,A,MAJOR,YES,Title and intro sentence (Joel's Unicode article) omitted; 'if you're really good' -> 'if you're lucky'.
+STACKO-006,StackOverflowQA,main,B,MAJOR,NO,The actual problem definition is omitted in the translation.
+STACKO-006,StackOverflowQA,main,C,MAJOR,YES,Omission: the title + intro sentence
+STACKO-007,StackOverflowQA,main,A,OK,YES,
+STACKO-007,StackOverflowQA,main,B,OK,YES,
+STACKO-007,StackOverflowQA,main,C,OK,YES,
+STACKO-008,StackOverflowQA,main,A,OK,YES,
+STACKO-008,StackOverflowQA,main,B,OK,YES,
+STACKO-008,StackOverflowQA,main,C,OK,YES,
+STACKO-009,StackOverflowQA,main,A,MAJOR,YES,Question title ('titanium maps user location near annotation') omitted.
+STACKO-009,StackOverflowQA,main,B,OK,YES,
+STACKO-009,StackOverflowQA,main,C,MAJOR,YES,Omission: the title 'titanium maps user location near annotation' is missing.
+STACKO-010,StackOverflowQA,main,A,MINOR,YES,Markdown code fences (```jsp) added; otherwise faithful.
+STACKO-010,StackOverflowQA,main,B,OK,YES,
+STACKO-010,StackOverflowQA,main,C,OK,YES,
+STACKO-011,StackOverflowQA,main,A,OK,YES,
+STACKO-011,StackOverflowQA,main,B,OK,YES,
+STACKO-011,StackOverflowQA,main,C,MINOR,YES,
+STACKO-012,StackOverflowQA,main,A,OK,YES,
+STACKO-012,StackOverflowQA,main,B,OK,YES,
+STACKO-012,StackOverflowQA,main,C,OK,YES,
+STACKO-013,StackOverflowQA,main,A,OK,YES,
+STACKO-013,StackOverflowQA,main,B,OK,YES,
+STACKO-013,StackOverflowQA,main,C,OK,YES,
+STACKO-014,StackOverflowQA,main,A,OK,YES,
+STACKO-014,StackOverflowQA,main,B,OK,YES,
+STACKO-014,StackOverflowQA,main,C,OK,YES,
+STACKO-015,StackOverflowQA,main,A,OK,YES,
+STACKO-015,StackOverflowQA,main,B,OK,YES,
+STACKO-015,StackOverflowQA,main,C,MINOR,YES,
+STACKO-016,StackOverflowQA,main,A,OK,YES,
+STACKO-016,StackOverflowQA,main,B,OK,YES,
+STACKO-016,StackOverflowQA,main,C,MINOR,YES,
+STACKO-017,StackOverflowQA,main,A,MINOR,YES,Typo 'gruplaytıktan'.
+STACKO-017,StackOverflowQA,main,B,OK,YES,
+STACKO-017,StackOverflowQA,main,C,MINOR,YES,
+STACKO-018,StackOverflowQA,main,A,OK,YES,
+STACKO-018,StackOverflowQA,main,B,OK,YES,
+STACKO-018,StackOverflowQA,main,C,OK,YES,
+STACKO-019,StackOverflowQA,main,A,OK,YES,
+STACKO-019,StackOverflowQA,main,B,OK,YES,
+STACKO-019,StackOverflowQA,main,C,OK,YES,
+STACKO-020,StackOverflowQA,main,A,OK,YES,
+STACKO-020,StackOverflowQA,main,B,MINOR,YES,"There exist inconsistencies in terminology translation strategies (e.g. translating ""flag"" as ""bayrak"", but keeping ""to set"" as ""set etmek"" instead of ""ayarlamak"")"
+STACKO-020,StackOverflowQA,main,C,OK,YES,
+APPS-021,Apps,outlier,A,MAJOR,YES,Problem intro omitted; task still recoverable from Output section.
+APPS-021,Apps,outlier,B,MAJOR,YES,The actual problem definition is omitted in the translation.
+APPS-021,Apps,outlier,C,MAJOR,YES,Omission: the first two paragraphs
+APPS-022,Apps,outlier,A,MAJOR,NO,Problem statement and examples omitted; only Input/Output sections remain.
+APPS-022,Apps,outlier,B,MAJOR,YES,The actual problem definition is omitted in the translation.
+APPS-022,Apps,outlier,C,MAJOR,YES,Omission: the problem statement and the Example section
+APPS-023,Apps,outlier,A,MAJOR,NO,"Entire problem statement (path value definition, task) omitted; only I/O sections remain."
+APPS-023,Apps,outlier,B,MAJOR,YES,The actual problem definition is omitted in the translation.
+APPS-023,Apps,outlier,C,MAJOR,UNSURE,Omission: the problem statement
+CODESE-021,CodeSearchNet,outlier,A,OK,YES,
+CODESE-021,CodeSearchNet,outlier,B,OK,YES,
+CODESE-021,CodeSearchNet,outlier,C,OK,YES,
+CODESE-022,CodeSearchNet,outlier,A,OK,YES,
+CODESE-022,CodeSearchNet,outlier,B,OK,YES,
+CODESE-022,CodeSearchNet,outlier,C,OK,YES,
+CODESE-023,CodeSearchNet,outlier,A,MAJOR,YES,Extra explanatory paragraph added that is not in the source.
+CODESE-023,CodeSearchNet,outlier,B,MAJOR,YES,The translation contains additional explanations of the codeblock.
+CODESE-023,CodeSearchNet,outlier,C,MAJOR,YES,"Content added: 'Verilen ""rule"" parametresini ... null içerir.'"
+COSQA-021,CosQA,outlier,A,MAJOR,UNSURE,"MT output contains meta-commentary and alternatives, not a single query; original terms still present."
+COSQA-021,CosQA,outlier,B,MAJOR,NO,"The translation here is not a proper translation of the query, but rather a commentary on its possible translations."
+COSQA-021,CosQA,outlier,C,MAJOR,YES,"Content added: the output has translation + other things (e.g., alternative translations)"
+COSQA-022,CosQA,outlier,A,MAJOR,UNSURE,"MT output contains meta-commentary and multiple alternative renderings, not a single query."
+COSQA-022,CosQA,outlier,B,MAJOR,NO,"The translation here is not a proper translation of the query, but rather a commentary on its possible translations."
+COSQA-022,CosQA,outlier,C,MAJOR,YES,"Content added: the output has translation + other things (e.g., alternative translations)"
+PUBMED-021,PubMedRCT,outlier,A,OK,YES,
+PUBMED-021,PubMedRCT,outlier,B,OK,YES,
+PUBMED-021,PubMedRCT,outlier,C,OK,YES,
+PUBMED-022,PubMedRCT,outlier,A,MAJOR,UNSURE,@st/@nd/@rd/@th' filled as 1-6; last three are guesses. 
+PUBMED-022,PubMedRCT,outlier,B,MAJOR,UNSURE,"The translation assumes that all ""@"" signs stand for consecutive numbers, but only the first three ""@"" signs' values can be inferred from their ordinal suffixes as ""1. (first)"", ""2. (second)"" and ""3. (third)"", respectively."
+PUBMED-022,PubMedRCT,outlier,C,MAJOR,YES,Numbers invented
+PUBMED-023,PubMedRCT,outlier,A,MINOR,YES,'PCS' (survivors) -> 'patients'; 'ADT-related' only implicit; BMD abbreviation dropped.
+PUBMED-023,PubMedRCT,outlier,B,OK,YES,
+PUBMED-023,PubMedRCT,outlier,C,MINOR,YES,
+SCICIT-021,SciCite,outlier,A,OK,YES,
+SCICIT-021,SciCite,outlier,B,OK,YES,
+SCICIT-021,SciCite,outlier,C,MINOR,YES,
+SCICIT-022,SciCite,outlier,A,OK,YES,
+SCICIT-022,SciCite,outlier,B,OK,YES,
+SCICIT-022,SciCite,outlier,C,OK,YES,
+SCICIT-023,SciCite,outlier,A,MAJOR,YES,Section header 'Pathogen Infections and Microscopy' omitted.
+SCICIT-023,SciCite,outlier,B,OK,YES,
+SCICIT-023,SciCite,outlier,C,MAJOR,YES,Omission: the section heading
+STACKO-021,StackOverflowQA,outlier,A,MAJOR,NO,Core SQL query omitted; 'before LIMIT' flipped to 'after LIMIT' in linked title.
+STACKO-021,StackOverflowQA,outlier,B,MAJOR,NO,The translation doesn't contain the answer code.
+STACKO-021,StackOverflowQA,outlier,C,MAJOR,NO,Omission: the entire SQL query is missing
+STACKO-022,StackOverflowQA,outlier,A,MAJOR,NO,Code solution omitted
+STACKO-022,StackOverflowQA,outlier,B,MAJOR,NO,The translation doesn't contain the answer code.
+STACKO-022,StackOverflowQA,outlier,C,MAJOR,NO,Omission: the code
+STACKO-023,StackOverflowQA,outlier,A,MAJOR,YES,Leading HTML snippet (the text to be removed) omitted.
+STACKO-023,StackOverflowQA,outlier,B,OK,YES,
+STACKO-023,StackOverflowQA,outlier,C,MAJOR,YES,Omission: the HTML block
