@@ -13,7 +13,7 @@
 - 📊 [TabiBench Collection](https://huggingface.co/collections/boun-tabilab/tabibench) - Access Turkish NLP evaluation benchmarks
 - 📄 [Paper](https://arxiv.org/abs/2512.23065) - Read the full research paper
 
-*TabiBERT and TabiBench are built by [Tabilab](https://tabilab.cmpe.bogazici.edu.tr/) in collaboration with [VNGRS](https://vngrs.com/).*
+*TabiBERT and TabiBench are built by [TABILAB](https://tabilab.cmpe.bogazici.edu.tr/) with the support of [VNGRS](https://vngrs.com/).*
 
 ## Table of Contents
 - [Project Structure](#project-structure)
