@@ -1,0 +1,151 @@
+category,model,dataset,seed,score
+Academic Understanding,TabiBERT,PubmedRCT-10K-TR,7,74.643
+Academic Understanding,TabiBERT,PubmedRCT-10K-TR,25,73.414
+Academic Understanding,TabiBERT,PubmedRCT-10K-TR,42,74.302
+Academic Understanding,TabiBERT,PubmedRCT-10K-TR,100,73.682
+Academic Understanding,TabiBERT,PubmedRCT-10K-TR,1234,74.224
+Academic Understanding,TabiBERT,SciCite-TR,7,82.528
+Academic Understanding,TabiBERT,SciCite-TR,25,82.759
+Academic Understanding,TabiBERT,SciCite-TR,42,83.48
+Academic Understanding,TabiBERT,SciCite-TR,100,82.531
+Academic Understanding,TabiBERT,SciCite-TR,1234,82.545
+Academic Understanding,TabiBERT,Thesis Abstract,7,51.783
+Academic Understanding,TabiBERT,Thesis Abstract,25,52.367
+Academic Understanding,TabiBERT,Thesis Abstract,42,51.635
+Academic Understanding,TabiBERT,Thesis Abstract,100,51.525
+Academic Understanding,TabiBERT,Thesis Abstract,1234,52.313
+Academic Understanding,TabiBERT,[category weighted avg],7,69.92
+Academic Understanding,TabiBERT,[category weighted avg],25,69.83
+Academic Understanding,TabiBERT,[category weighted avg],42,70.12
+Academic Understanding,TabiBERT,[category weighted avg],100,69.55
+Academic Understanding,TabiBERT,[category weighted avg],1234,69.98
+Information Retrieval,TabiBERT,BiText,7,99.41
+Information Retrieval,TabiBERT,BiText,25,99.41
+Information Retrieval,TabiBERT,BiText,42,99.4
+Information Retrieval,TabiBERT,BiText,100,99.43
+Information Retrieval,TabiBERT,BiText,1234,99.41
+Information Retrieval,TabiBERT,Fiqa-TR,7,50.19
+Information Retrieval,TabiBERT,Fiqa-TR,25,50.18
+Information Retrieval,TabiBERT,Fiqa-TR,42,50.77
+Information Retrieval,TabiBERT,Fiqa-TR,100,50.71
+Information Retrieval,TabiBERT,Fiqa-TR,1234,51.14
+Information Retrieval,TabiBERT,MsMarco-TR,7,83.28
+Information Retrieval,TabiBERT,MsMarco-TR,25,83.24
+Information Retrieval,TabiBERT,MsMarco-TR,42,83.32
+Information Retrieval,TabiBERT,MsMarco-TR,100,83.35
+Information Retrieval,TabiBERT,MsMarco-TR,1234,83.29
+Information Retrieval,TabiBERT,NFCorpus-TR,7,32.48
+Information Retrieval,TabiBERT,NFCorpus-TR,25,33.11
+Information Retrieval,TabiBERT,NFCorpus-TR,42,32.94
+Information Retrieval,TabiBERT,NFCorpus-TR,100,31.13
+Information Retrieval,TabiBERT,NFCorpus-TR,1234,31.16
+Information Retrieval,TabiBERT,Quora-TR,7,92.39
+Information Retrieval,TabiBERT,Quora-TR,25,92.39
+Information Retrieval,TabiBERT,Quora-TR,42,92.39
+Information Retrieval,TabiBERT,Quora-TR,100,92.39
+Information Retrieval,TabiBERT,Quora-TR,1234,92.39
+Information Retrieval,TabiBERT,Scifact-TR,7,75.84
+Information Retrieval,TabiBERT,Scifact-TR,25,75.26
+Information Retrieval,TabiBERT,Scifact-TR,42,77.83
+Information Retrieval,TabiBERT,Scifact-TR,100,77.01
+Information Retrieval,TabiBERT,Scifact-TR,1234,75.46
+Information Retrieval,TabiBERT,[category weighted avg],7,75.64
+Information Retrieval,TabiBERT,[category weighted avg],25,75.74
+Information Retrieval,TabiBERT,[category weighted avg],42,75.78
+Information Retrieval,TabiBERT,[category weighted avg],100,75.44
+Information Retrieval,TabiBERT,[category weighted avg],1234,75.42
+NLI,BERTurk,MultiNLI-TR,7,78.875
+NLI,BERTurk,MultiNLI-TR,25,78.729
+NLI,BERTurk,MultiNLI-TR,42,79.645
+NLI,BERTurk,MultiNLI-TR,100,78.669
+NLI,BERTurk,MultiNLI-TR,1234,78.979
+NLI,BERTurk,SNLI-TR,7,87.121
+NLI,BERTurk,SNLI-TR,25,87.176
+NLI,BERTurk,SNLI-TR,42,86.988
+NLI,BERTurk,SNLI-TR,100,86.93
+NLI,BERTurk,SNLI-TR,1234,86.939
+NLI,BERTurk,[category weighted avg],7,84.37
+NLI,BERTurk,[category weighted avg],25,84.36
+NLI,BERTurk,[category weighted avg],42,84.54
+NLI,BERTurk,[category weighted avg],100,84.17
+NLI,BERTurk,[category weighted avg],1234,84.28
+NLI,TabiBERT,MultiNLI-TR,7,80.425
+NLI,TabiBERT,MultiNLI-TR,25,80.067
+NLI,TabiBERT,MultiNLI-TR,42,80.332
+NLI,TabiBERT,MultiNLI-TR,100,80.436
+NLI,TabiBERT,MultiNLI-TR,1234,80.769
+NLI,TabiBERT,SNLI-TR,7,86.385
+NLI,TabiBERT,SNLI-TR,25,86.483
+NLI,TabiBERT,SNLI-TR,42,86.338
+NLI,TabiBERT,SNLI-TR,100,86.688
+NLI,TabiBERT,SNLI-TR,1234,86.453
+NLI,TabiBERT,[category weighted avg],7,84.4
+NLI,TabiBERT,[category weighted avg],25,84.34
+NLI,TabiBERT,[category weighted avg],42,84.33
+NLI,TabiBERT,[category weighted avg],100,84.6
+NLI,TabiBERT,[category weighted avg],1234,84.56
+STS,TabiBERT,SICK-TR,7,85.3118
+STS,TabiBERT,SICK-TR,25,85.4656
+STS,TabiBERT,SICK-TR,42,86.3473
+STS,TabiBERT,SICK-TR,100,84.9894
+STS,TabiBERT,SICK-TR,1234,85.8155
+STS,TabiBERT,STSb-TR,7,84.0638
+STS,TabiBERT,STSb-TR,25,83.0268
+STS,TabiBERT,STSb-TR,42,83.2541
+STS,TabiBERT,STSb-TR,100,82.8044
+STS,TabiBERT,STSb-TR,1234,83.5896
+STS,TabiBERT,[category weighted avg],7,85.04
+STS,TabiBERT,[category weighted avg],25,84.93
+STS,TabiBERT,[category weighted avg],42,85.67
+STS,TabiBERT,[category weighted avg],100,84.51
+STS,TabiBERT,[category weighted avg],1234,85.33
+Token Clf,BERTurk,PosUDBOUN,7,89.741
+Token Clf,BERTurk,PosUDBOUN,25,89.949
+Token Clf,BERTurk,PosUDBOUN,42,89.788
+Token Clf,BERTurk,PosUDBOUN,100,89.929
+Token Clf,BERTurk,PosUDBOUN,1234,89.788
+Token Clf,BERTurk,PosUDIMST,7,94.55
+Token Clf,BERTurk,PosUDIMST,25,94.564
+Token Clf,BERTurk,PosUDIMST,42,94.592
+Token Clf,BERTurk,PosUDIMST,100,94.666
+Token Clf,BERTurk,PosUDIMST,1234,94.582
+Token Clf,BERTurk,WikiANN NER,7,94.158
+Token Clf,BERTurk,WikiANN NER,25,95.64
+Token Clf,BERTurk,WikiANN NER,42,95.64
+Token Clf,BERTurk,WikiANN NER,100,94.239
+Token Clf,BERTurk,WikiANN NER,1234,95.364
+Token Clf,BERTurk,WikiNER,7,78.71
+Token Clf,BERTurk,WikiNER,25,79.078
+Token Clf,BERTurk,WikiNER,42,79.155
+Token Clf,BERTurk,WikiNER,100,79.208
+Token Clf,BERTurk,WikiNER,1234,79.089
+Token Clf,BERTurk,[category weighted avg],7,92.68
+Token Clf,BERTurk,[category weighted avg],25,93.86
+Token Clf,BERTurk,[category weighted avg],42,93.85
+Token Clf,BERTurk,[category weighted avg],100,92.8
+Token Clf,BERTurk,[category weighted avg],1234,93.64
+Token Clf,TabiBERT,PosUDBOUN,7,90.181
+Token Clf,TabiBERT,PosUDBOUN,25,90.441
+Token Clf,TabiBERT,PosUDBOUN,42,90.386
+Token Clf,TabiBERT,PosUDBOUN,100,90.239
+Token Clf,TabiBERT,PosUDBOUN,1234,90.334
+Token Clf,TabiBERT,PosUDIMST,7,93.499
+Token Clf,TabiBERT,PosUDIMST,25,93.343
+Token Clf,TabiBERT,PosUDIMST,42,93.523
+Token Clf,TabiBERT,PosUDIMST,100,93.728
+Token Clf,TabiBERT,PosUDIMST,1234,93.26
+Token Clf,TabiBERT,WikiANN NER,7,95.199
+Token Clf,TabiBERT,WikiANN NER,25,95.314
+Token Clf,TabiBERT,WikiANN NER,42,95.32
+Token Clf,TabiBERT,WikiANN NER,100,95.427
+Token Clf,TabiBERT,WikiANN NER,1234,95.25
+Token Clf,TabiBERT,WikiNER,7,76.116
+Token Clf,TabiBERT,WikiNER,25,76.949
+Token Clf,TabiBERT,WikiNER,42,75.831
+Token Clf,TabiBERT,WikiNER,100,75.767
+Token Clf,TabiBERT,WikiNER,1234,76.146
+Token Clf,TabiBERT,[category weighted avg],7,93.22
+Token Clf,TabiBERT,[category weighted avg],25,93.38
+Token Clf,TabiBERT,[category weighted avg],42,93.31
+Token Clf,TabiBERT,[category weighted avg],100,93.39
+Token Clf,TabiBERT,[category weighted avg],1234,93.25
