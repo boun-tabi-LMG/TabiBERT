@@ -28,17 +28,13 @@ def build_multinli_dataloader(split: str, tokenizer_name: str,
     Returns:
         Dataset: A dataset for NLI task
     """
-    if split == 'train':
-        multi_nli = load_from_disk("/workspace/TabiBERT/finetuning/datasets/multinli_tr/train/")
-    elif split == 'validation' or split == 'test':
-        multi_nli = load_from_disk("/workspace/TabiBERT/finetuning/datasets/multinli_tr/validation_matched/")
-        multi_nli_splitted = multi_nli.train_test_split(test_size=0.5, seed=25)
-        if split == 'validation':
-            multi_nli = multi_nli_splitted['train']
-        elif split == 'test':
-            multi_nli = multi_nli_splitted['test']
-    else:
+    # Load the published splits directly. The previous code expected an
+    # unsplit local validation_matched dump and halved it; with the hub
+    # dataset (already split into validation/test) the test set shrank to
+    # half of its size. Sizes now match TabiBench Table 3 (392,702 / 4,892 / 4,923).
+    if split not in ('train', 'validation', 'test'):
         raise ValueError(f"Unknown split: {split}")
+    multi_nli = load_dataset("boun-tabilab/MultiNLI-TR", split=split)
 
     # Filter out rows with -1 labels before creating dataset instance
     original_size = len(multi_nli)
@@ -270,7 +266,8 @@ def build_pubmed_RCT_dataloader(split: str, tokenizer_name: str,
             "train": "train-*.parquet",
             "dev": "dev-*.parquet",
             "test": "test-*.parquet"
-        }
+        },
+        verification_mode="no_checks",
     )[split]
     
     all_labels = set()
@@ -305,7 +302,8 @@ def build_sci_cite_dataloader(split: str, tokenizer_name: str,
             "train": "data/train-*.parquet",
             "dev": "data/dev-*.parquet",
             "test": "data/test-*.parquet"
-        }
+        },
+        verification_mode="no_checks",
     )[split]
     
     all_labels = set()
@@ -340,10 +338,11 @@ def build_thesis_abstract_dataloader(split: str, tokenizer_name: str,
             "train": "data/train-*.parquet",
             "dev": "data/dev-*.parquet",
             "test": "data/test-*.parquet"
-        }
-    )[split].rename_columns({
-        'abstract': 'text',
-    })
+        },
+        verification_mode="no_checks",
+    )[split]
+    if 'abstract' in ds.column_names:
+        ds = ds.rename_columns({'abstract': 'text'})
     
     all_labels = set()
     all_labels.update(ds["label"])
@@ -496,8 +495,23 @@ def build_wiki_ner_dataloader(split: str, tokenizer_name: str, max_seq_length: i
     else:
         dataset = load_dataset("turkish-nlp-suite/turkish-wikiNER")[split]
 
-    # Build tag2id mapping
-    unique_tags = set(tag for row in dataset for tag in row['tags'])
+    # Build tag2id mapping. The hub dataset stores tags as ClassLabel ints, and
+    # deriving the label set from the loaded split makes the mapping
+    # split-dependent: I-PERCENT never occurs in validation, so every later
+    # label shifts by one index relative to train and evaluation decodes
+    # predictions with the wrong labels. Convert to BIO strings (what seqeval
+    # expects) and use the full ClassLabel name list for every split.
+    tag_feature = dataset.features['tags'].feature
+    if hasattr(tag_feature, 'names'):
+        tag_names = list(tag_feature.names)
+        features = datasets.Features({
+            **{k: v for k, v in dataset.features.items() if k != 'tags'},
+            'tags': datasets.Sequence(datasets.Value('string'))})
+        dataset = dataset.map(lambda row: {'tags': [tag_names[t] for t in row['tags']]},
+                              features=features)
+        unique_tags = set(tag_names)
+    else:
+        unique_tags = set(tag for row in dataset for tag in row['tags'])
     tag2id = {tag: i for i, tag in enumerate(sorted(unique_tags))}
 
     
@@ -793,6 +807,11 @@ def build_code_retrieval_dataloader(
     dataset = load_dataset(
         code_retrieval_datasets[code_retrieval_task_id],
     )
+    # The hub datasets were re-uploaded (Dec 2025) with the dev split named
+    # "validation". Without this, the fallback below silently discards 75% of
+    # the training set (e.g. Apps-TR: 1,235 -> 308 rows).
+    if "dev" not in dataset and "validation" in dataset:
+        dataset["dev"] = dataset["validation"]
     if "dev" not in dataset:
         train_dev_split = dataset['train'].train_test_split(test_size=0.75, seed=25)
         dataset['train'] = train_dev_split['train']
