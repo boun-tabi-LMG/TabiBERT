@@ -493,7 +493,7 @@ def train_retrieval_model(
             train_dataset=train_dataset,
             eval_dataset=eval_dataset,
             loss=mnrl_loss,
-        )                                            k_values=[10])
+        )
 
     # Train the model
     logger.info("=== STARTING TRAINING ===")
